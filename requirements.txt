@@ -21,7 +21,7 @@ metakernel==0.27.5
 parso==0.8.2
 pexpect==4.8.0
 pickleshare==0.7.5
-prologterms==prologterms-0.0.6
+prologterms==0.0.6
 prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 pycosat==0.6.3
