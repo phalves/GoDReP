@@ -13,11 +13,11 @@ To instantiate a scenario, as depicted in the figure below, ConFIA proposes five
     (v) Advanced Exploration, which aims to explore other scenarios to offer evaluation regarding different possible situations.
 These processes allow the agents to describe the pragmatic circumscriptions in detail and explore the understanding of the expected behavior that emerged from the agents' actions.
     
-![Confia Macro Process](img/ConFIA_MacroProcesses)
+![Confia Macro Process](img/ConFIA_MacroProcesses.png)
 
 Moreover, the figure below depicts the Advanced Exploration process, which proposes the insertion of a new fact and the environment impact analysis. The generated log results from the actions performed in the scenario, representing secondary evidence of the agent's activity. At the end of each advanced sub-scenario, the new facts are removed, and the environment turns back to the basic scenario state. Hence, the advanced scenarios are independent, based on the same basic environment.
 
-![Confia Advanced Exploration](img/ConFIA_AdvancedExploration)
+![Confia Advanced Exploration](img/ConFIA_AdvancedExploration.png)
 
 
 This project starts with three different domain scenarios: [Healthcare](LGPD_Health_Scenario.ipynb), [Educational](LGPD_Educational_Scenario.ipynb), and [Open Banking](Open_Banking_Scenario.ipynb).
