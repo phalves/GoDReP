@@ -9,4 +9,4 @@ This project starts with three different domain scenarios: [Healthcare](LGPD_Hea
 
 Moreover, this is an open source project, thus, anyone can contribute. As much as scenarios this project have, more the agents would have material to argue their rights.
 
-Last but not least, this project is fruto of an Ph.D Thesis in Brazil.
+Last but not least, this project is an outcome of an Ph.D Thesis in Brazil.
