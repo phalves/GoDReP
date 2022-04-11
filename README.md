@@ -19,7 +19,7 @@ Moreover, the figure below depicts the Advanced Exploration process, which propo
 
 ![Confia Advanced Exploration](img/ConFIA_AdvancedExploration.png =600)
 <div>
-<img src=".;img/ConFIA_AdvancedExploration.png" width="600"/>
+<img src="./img/ConFIA_AdvancedExploration.png" width="600"/>
 </div>
 
 
