@@ -5,14 +5,18 @@ Consent Ontology joins the PrOnto and GConsent ontologies and offers an extensio
 This extension proposes three modules to mitigate the data flow informational asymmetry, as depicted in the figure below. 
 The ConsentTerm module determines the consent legal basis requirements, and it narrows the data subject, controller, and processor actions. 
 The Action defines the step execution based on the ConsentTerm to accomplished a specific action considering: 
-    (i) the jurisdiction, to allow the scenario contextualization; 
-    (ii) consent term which the action is based on; 
-    (iii) time frame, 
-    (iv) rights based on the jurisdiction applied, and
-    (v) the deontic operator to indicate a normative expression.
+<ol type="i">
+  <li>the jurisdiction, to allow the scenario contextualization; </li>
+  <li>consent term which the action is based on; </li>
+  <li>time frame;</li>
+  <li>rights based on the jurisdiction applied, and</li>
+  <li>the deontic operator to indicate a normative expression.</li>
+</ol>
+    
 Moreover, the Action generates a log of executed actions, and it should explain the action performed. Still, this can be used as evidence to evaluate the consent term compliance. 
 
 ![Confia Macro Process](img/ConsentOntology_Structure.png)
+
 Fig.1 - ConsentOntology Structure.
 
 The LGPD cases can present intersections with other laws in the Brazilian constitution, depending on the case, as depicted in the figure below. 
@@ -25,6 +29,7 @@ LGPD defines:
  - rights and duties: LGPD sets rights and duties for data subjects, controllers and processors.
 
 ![LGPD_Structure](/img/LGPD_Structure.png)
+
 Fig.2 - LGPD Structure.
 
 In a detailed view, the next figure depicts the relationships between the ontology entities, and it is important to note that the "consent term" and the "right" are the central ontology points; they have many connections with other concepts as well as the entity "dispute resolution". For instance, if the purpose limitation changes, the data controller must get a new consent term from the data subject. Hence, depending on the data subject will, he/she can disagree, and it will interrupt the data collection. Still, if the data controller does not stop collecting the data subject's personal data, it will violate its rights, and fines will be applied to the data controller.
@@ -34,6 +39,7 @@ Even though the LGPD did not specify the data processing modalities, we decided 
 Furthermore, there are 10 (ten) legal bases foreseen in the LGPD and we decided to start our study on Consent legal basis. We decided to use consent as a study object because it can be applied in most situations.
 
 ![LGPD_Ontology_Relationships](./img/ConsentOntology_ConsentModule.png)
+
 Fig.3 - ConsentOntology Relationships.
 
 The yellow entities are those that are present in the PrOnto ontology that fits the LGPD consent legal basis.
@@ -60,6 +66,7 @@ All actions are persisted in an **activity log** to be used as a explanation evi
 </ol>
 
 ![Scenario_Structure](img/ConsentOntology_ActionModule.png)
+
 Fig.4 - Scenario Structure - Action Module.
 
 
