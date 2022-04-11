@@ -14,12 +14,17 @@ To instantiate a scenario, as depicted in the figure below, ConFIA proposes five
 These processes allow the agents to describe the pragmatic circumscriptions in detail and explore the understanding of the expected behavior that emerged from the agents' actions.
     
 ![Confia Macro Process](img/ConFIA_MacroProcesses.png)
+Fig.1 - ConFIA MacroProcess.
 
 Moreover, the figure below depicts the Advanced Exploration process, which proposes the insertion of a new fact and the environment impact analysis. The generated log results from the actions performed in the scenario, representing secondary evidence of the agent's activity. At the end of each advanced sub-scenario, the new facts are removed, and the environment turns back to the basic scenario state. Hence, the advanced scenarios are independent, based on the same basic environment.
 
 <div>
     <img src="./img/ConFIA_AdvancedExploration.png" width="500"/>
 </div>
+Fig.2 - ConFIA Advanced Exploration.
+
+
+Our scenarios follows the structure presented below. First, we define the scenario context and formulate basic questions regarding the data subject's rights and how the data controller can address such questions. Then, we elaborate more complex scenarios in order to explore non-trivial situations to stress the scenario context and document the evidence. We aim to create a simulation tool that data subjects and controllers can explore the possible scenarios already developed and contribute with new perspectives. The collaborative contribution can generate a solid database for exploring LGPD compliance in many different situations.
 
 
 This project starts with three different domain scenarios: [Healthcare](LGPD_Health_Scenario.ipynb), [Educational](LGPD_Educational_Scenario.ipynb), and [Open Banking](Open_Banking_Scenario.ipynb).
