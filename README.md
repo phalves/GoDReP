@@ -1,7 +1,7 @@
 
 # ConFIA (Consent Framework to mitigate Informational Asymmetry)
 
-ConFIA aims to use the ConsentOntology (link para consent ontology) to develop pragmatic circumscriptions in a structured manner to evaluate computational adherence and to bridge the gap between agents, i.e., data subjects, controllers, and processors. Moreover, This framework aims to help the agents explore the circumscription at different times in the timeline, i.e., before, during, and after the consent agreement.
+ConFIA aims to use the [ConsentOntology](ConsentOntology.md) to develop pragmatic circumscriptions in a structured manner to evaluate computational adherence and to bridge the gap between agents, i.e., data subjects, controllers, and processors. Moreover, This framework aims to help the agents explore the circumscription at different times in the timeline, i.e., before, during, and after the consent agreement.
 
 The scenarios were built using Jupyter Prolog (link para Jupyter Prolog) to allow agents to evaluate some possible interpretations in such an environment. Furthermore, the result would be used as evidence regarding the agreement between the parts involved. In this sense, Jupyter Prolog enables the construction of the scenarios with basic logic (Prolog) and documentation (Jupyter Notebook). The setup documentation for Jupyter Prolog is available at: [JupyterProlog](JupyterProlog.md).
 
