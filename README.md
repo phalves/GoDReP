@@ -17,9 +17,8 @@ These processes allow the agents to describe the pragmatic circumscriptions in d
 
 Moreover, the figure below depicts the Advanced Exploration process, which proposes the insertion of a new fact and the environment impact analysis. The generated log results from the actions performed in the scenario, representing secondary evidence of the agent's activity. At the end of each advanced sub-scenario, the new facts are removed, and the environment turns back to the basic scenario state. Hence, the advanced scenarios are independent, based on the same basic environment.
 
-![Confia Advanced Exploration](img/ConFIA_AdvancedExploration.png =600)
 <div>
-<img src="./img/ConFIA_AdvancedExploration.png" width="600"/>
+    <img src="./img/ConFIA_AdvancedExploration.png" width="500"/>
 </div>
 
 
