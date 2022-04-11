@@ -33,4 +33,9 @@ Furthermore, there are 10 (ten) legal bases foreseen in the LGPD and we decided 
 
 ![LGPD_Ontology_Relationships](./img/ConsentOntology_ConsentModule.png)
 
+The yellow entities are those that are present in the PrOnto ontology that fits the LGPD consent legal basis.
+The blue entities are those inherited from GConsent ontology.
+The green entities are those which were added to fulfill the LGPD needs; however, these entities can be also applied in scenarios ruled by the GDPR without producing inconsistencies or conflicts with the remain entities.
+The gray entities are those that the LGPD does not consider specifically as a concern.
+
 For more details, we are planning to publish our work, meanwhile you can contact me.
