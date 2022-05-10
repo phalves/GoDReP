@@ -7,7 +7,7 @@ The scenarios were built using Jupyter Prolog
  to allow agents to evaluate some possible interpretations in such an environment. Furthermore, the result would be used as evidence regarding the agreement between the parts involved. In this sense, Jupyter Prolog enables the construction of the scenarios with basic logic (Prolog) and documentation (Jupyter Notebook). The setup documentation for Jupyter Prolog is available at: [JupyterProlog](JupyterProlog.md).
 
 To instantiate a scenario, as depicted in the figure below, ConFIA proposes five macro processes: 
-- (i) Scenario Description}, which aims to identify the agents, purpose, time range, personal data, storage technology, security methods, access restrictions, third party sharing policies jurisdiction, consent compliance requirements based on the jurisdiction;
+- (i) Scenario Description, which aims to identify the agents, purpose, time range, personal data, storage technology, security methods, access restrictions, third party sharing policies jurisdiction, consent compliance requirements based on the jurisdiction;
 - (ii) Macro Process Definition, i.e., the step by step design to be executed by the agents; 
 - (iii)Process Execution, i.e., the record of the scenario's facts seeking for regulation compliance;
 - (iv) Impact Exploration, i.e., the evaluation of the impacts after the Process Execution, and
